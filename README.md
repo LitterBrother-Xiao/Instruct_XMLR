@@ -31,14 +31,14 @@ bash ../prepare_data.sh
 ```
 
 ## Model Training
-We use fsdp to speed up training, please refer to **../src/fsdp** for more implementation details.
+We use fsdp to speed up training, please refer to [here](https://github.com/LitterBrother-Xiao/Instruct_XMLR/tree/main/Instruct_XMLR/src/train_fsdp.py) for more implementation details.
 
 You can simply run the following script to begin training.
 ```
 bash ../run_train.sh
 ```
 
-If you don't have enough GPU memory, we also support [megatron-LM](https://github.com/NVIDIA/Megatron-LM), please refer to ** for more implementation details. 
+If you don't have enough GPU memory, we also support [megatron-LM](https://github.com/NVIDIA/Megatron-LM), please refer to [here](https://github.com/LitterBrother-Xiao/Instruct_XMLR/tree/main/Instruct_XMLR/src/train_megatron.py) for more implementation details. 
 
 ## Model Inference
 Make sure you have preprocess the evaluation data, then you can simply run the following script to begin inference.
@@ -48,7 +48,7 @@ bash ../run_inf.sh
 
 
 ## Any Questions?
-If you have any questions related to this code, feel free to email us (ysxiaoo@stu.suda.edu.cn).
+We modify the code from [here](https://github.com/dropreg/efficient_alpaca), if you have any questions related to this code, feel free to email us (ysxiaoo@stu.suda.edu.cn).
 ## Citation Details
 If you use the Instruct-XMLR models for your research, please cite our paper via:
 ```
